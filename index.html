@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Maven+Pro:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/style.css " />
+    <link rel="stylesheet" href="/css/mediaQuery.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>Lakshan Jayawardhan Portfolio</title>
+  </head>
+  <style>
+    /* body {
+      background-image: url(/assests/image/Background.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: "Kanit", sans-serif;
+      margin: 0;
+    }
+
+    .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+            background: linear-gradient(
+                to bottom,
+                #020807 0%,
+                #0e5549ab 50%,
+                #063029d3 100%
+            );
+        } */
+  </style>
+  <body>
+    <div class="overlay">
+      <header>
+        <div class="nav-bar">
+          <div class="logo">
+            <p>LAKSHAN</p>
+            <p>JAYAWARDHANA</p>
+          </div>
+          <div class="nav-links">
+            <nav class="desktop-nav">
+              <ul>
+                <li>
+                  <a class="active" href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#about-me">About</a>
+                </li>
+                <li>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <a href="#projects">Project</a>
+                </li>
+                <li>
+                  <a href="#gallery-section">Gallery</a>
+                </li>
+                <li>
+                  <a href="#contact-section">Contact</a>
+                </li>
+              </ul>
+            </nav>
+
+            <i class="fa-solid fa-bars menu-icon" id="burger"></i>
+            <!-- Burger menu -->
+            <nav class="mobile-nav" id="menu-panel-id">
+              <i class="fa-solid fa-xmark close-btn" id="btn-close"></i>
+              <ul>
+                <li>
+                  <a class="active" href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#about-me">About</a>
+                </li>
+                <li>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <a href="#projects">Project</a>
+                </li>
+                <li>
+                  <a href="#gallery-section">Gallery</a>
+                </li>
+                <li>
+                  <a href="#contact-section">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+          <div class="cart cart01"></div>
+          <div class="cart cart02"></div>
+          <div class="cart cart03"></div>
+          <div class="cart cart04"></div>
+          <div class="cart cart05"></div>
+        </div>
+
+        <div class="hero">
+          <div class="hero-image">
+            <img
+              src="/assests/image/Portfollio_Picture.png"
+              alt="Portfolio-image"
+            />
+          </div>
+          <div class="hero-text">
+            <h2><span class="text1"></span></h2>
+            <h3><span class="text"></span></h3>
+            <button>Contact</button>
+            <div class="btn-navigation">
+              <a href=""
+                ><i
+                  class="fa-brands fa-whatsapp fa-beat"
+                  style="color: #40c351"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fa-brands fa-facebook fa-beat"
+                  style="color: #3f51b5"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fa-brands fa-github fa-beat"
+                  style="color: #ffffff"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fa-brands fa-linkedin fa-beat"
+                  style="color: #0288d1"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fa-brands fa-x-twitter fa-beat"
+                  style="color: #000000"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div id="about-me">
+          <h2>About Me</h2>
+          <div class="about-me-container">
+            <div class="about-me-text">
+              <p>
+                Hey, I'm a dedicated software engineering student at IJSE, with
+                a strong foundation built on four years of hands-on experience
+                in the IT industry. My expertise spans software development,
+                problem-solving, and project collaboration, where I’ve
+                consistently delivered innovative and efficient solutions. With
+                a focus on mastering both front-end and back-end technologies, I
+                enjoy creating software that is as user-friendly as it is
+                robust. My professional journey has honed my ability to work
+                seamlessly within teams, meet challenging deadlines, and adapt
+                to rapidly evolving tech landscapes. I’m passionate about
+                leveraging my technical skills to build impactful digital
+                solutions and am always eager to take on new challenges that
+                push the boundaries of what technology can achieve.
+              </p>
+              <button id="download-cv">Download CV</button>
+            </div>
+            <div class="about-me-image">
+              <img
+                src="/assests/image/About-me-image.jpg"
+                alt="lakshan-image"
+              />
+            </div>
+          </div>
+          <div class="skills">
+            <p class="title">Skills</p>
+            <div class="box">
+              <div class="skill skill-01">
+                <i class="fa-brands fa-java"></i>
+                <p>Java</p>
+              </div>
+              <div class="skill skill-02">
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML</p>
+              </div>
+              <div class="skill skill-03">
+                <i class="fa-brands fa-css3"></i>
+                <p>CSS</p>
+              </div>
+              <div class="skill skill-04">
+                <i class="fa-brands fa-js"></i>
+                <p>JavaScript</p>
+              </div>
+              <div class="skill skill-05">
+                <i class="fa-brands fa-bootstrap"></i>
+                <p>Bootstrap</p>
+              </div>
+              <div class="skill skill-06">
+                <i class="fa-brands fa-react"></i>
+                <p>React</p>
+              </div>
+              <div class="skill skill-07">
+                <i class="fa-brands fa-node"></i>
+                <p>Node</p>
+              </div>
+
+              <div class="skill skill-08">
+                <i class="fa-brands fa-python"></i>
+                <p>Python</p>
+              </div>
+            </div>
+          </div>
+          <div class="info-education">
+            <div class="info">
+              <p id="headline">Info</p>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-user"></i>
+                  <p>Lakshan Jayawardhana</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>Bibile, Sri Lanka</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <p>+94 77 698 6455</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <p>shaanz11.11@gmail.com</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-calendar-days"></i>
+                  <p>05/01/1998</p>
+                </li>
+              </ul>
+            </div>
+            <div class="education">
+              <p id="headline">Education</p>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-user-graduate"></i>
+                  <p>
+                    G.C.E. O/L Exam (2013) - UVA Science College, Haliela -
+                    Passed
+                  </p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-user-graduate"></i>
+                  <p>
+                    G.C.E. A/L Exam (2016) - MO/Mahamathaya Science College,
+                    Bibile - Results: B, B, S
+                  </p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-certificate"></i>
+                  <p>Completed NVQ Level III in Information Technology</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-school"></i>
+                  <p>
+                    Currently Enrolled in Diploma in Software Engineering at
+                    IJSE Institute
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr />
+
+        <div id="services">
+          <h2>Services</h2>
+          <p>
+            I provide tailored software solutions, specializing in user-friendly
+            web and mobile applications. With skills in both front-end and
+            back-end development, I deliver responsive designs, efficient
+            database management, and seamless user experiences. My goal is to
+            bring your vision to life with high-quality, reliable results that
+            meet your unique needs. Let's create something exceptional together.
+          </p>
+          <div class="services-container service-01">
+            <div class="services-icon">
+              <i class="fa-brands fa-java"></i>
+            </div>
+            <div class="services-content">
+              <h3>JAVA PROJECT</h3>
+              <p>
+                I create strong and reliable Java applications that are easy to
+                use and efficient. Whether it's building desktop software or web
+                apps, I focus on delivering solutions that work smoothly and are
+                easy to maintain. Using popular tools like Spring and Hibernate,
+                I make sure each project meets your needs with clean, effective
+                code. If you're looking for practical and dependable Java
+                solutions, I'm here to help bring your ideas to life.
+              </p>
+            </div>
+          </div>
+          <div class="services-container service-02">
+            <div class="services-icon">
+              <i class="fa-brands fa-uikit"></i>
+            </div>
+            <div class="services-content">
+              <h3>UI/UX</h3>
+              <p>
+                I design clean, intuitive UI/UX for web and mobile applications,
+                focusing on creating seamless, user-friendly experiences. By
+                combining creative design with usability, I ensure that your
+                product is both visually appealing and easy to navigate. Let’s
+                create an engaging and enjoyable experience for your users.
+              </p>
+            </div>
+          </div>
+          <div class="services-container service-03">
+            <div class="services-icon">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="services-content">
+              <h3>WEB DEVELOPMENT</h3>
+              <p>
+                I build responsive and dynamic websites that are both visually
+                appealing and fully functional. Using the latest technologies, I
+                create user-friendly web solutions tailored to your needs.
+                Whether it's a simple site or a complex web application, I
+                ensure a seamless experience across all devices. Let’s bring
+                your online presence to life with a professional,
+                high-performing website.
+              </p>
+            </div>
+          </div>
+          <div class="services-container service-04">
+            <div class="services-icon">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <div class="services-content">
+              <h3>DATABASE MANAGEMENT</h3>
+              <p>
+                I offer efficient database management solutions that ensure your
+                data is organized, secure, and easily accessible. Whether it's
+                designing databases, optimizing performance, or ensuring data
+                integrity, I focus on delivering reliable systems tailored to
+                your business needs. Let’s work together to manage and scale
+                your data effectively.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+        <div id="projects">
+          <h2>PROJECTS</h2>
+          <p>
+            In my projects, I focus on creating innovative solutions that solve
+            real-world problems. By combining technical expertise with
+            creativity, I deliver high-quality, user-friendly applications. Each
+            project is tailored to meet specific needs, ensuring functionality,
+            performance, and seamless user experiences. Let’s explore how my
+            work can bring your ideas to life.
+          </p>
+        </div>
+        <h3 id="project-title">JAVA PROJECT</h3>
+        <div class="java-project">
+          <div class="project project-1">
+            <img
+              src="/assests/image/Stock management.png"
+              alt="stock-managemnet-system"
+            />
+            <h3>Stock Managemnet System</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+              vel laudantium numquam, explicabo, quas dolores commodi odit rerum
+              id unde soluta ducimus ab quod temporibus atque dicta facilis,
+              doloribus voluptates?Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Exercitationem sit doloremque quos in enim quas
+              accusantium corporis quisquam dicta nobis! Praesentium assumenda
+            </p>
+          </div>
+          <div class="project project-2">
+            <img src="/assests/image/Bubble game.png" alt="Bubble-game" />
+            <h3>Bubble Game</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+              vel laudantium numquam, explicabo, quas dolores commodi odit rerum
+              id unde soluta ducimus ab quod temporibus atque dicta facilis,
+              doloribus voluptates?Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Exercitationem sit doloremque quos in enim quas
+              accusantium corporis quisquam dicta nobis! Praesentium assumenda
+            </p>
+          </div>
+          <div class="project project-3">
+            <img
+              src="/assests/image/Project-marine-hub.png"
+              alt="project-marine-hub"
+            />
+            <h3>Project Marine Hub</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+              vel laudantium numquam, explicabo, quas dolores commodi odit rerum
+              id unde soluta ducimus ab quod temporibus atque dicta facilis,
+              doloribus voluptates?Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Exercitationem sit doloremque quos in enim quas
+              accusantium corporis quisquam dicta nobis! Praesentium assumenda
+            </p>
+          </div>
+          <div class="project project-4">
+            <img
+              src="/assests/image/Project-DMS-cool-tech.png"
+              alt="project-dms-cooltech"
+            />
+            <h3>Project DMS CoolTech</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+              vel laudantium numquam, explicabo, quas dolores commodi odit rerum
+              id unde soluta ducimus ab quod temporibus atque dicta facilis,
+              doloribus voluptates?Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Exercitationem sit doloremque quos in enim quas
+              accusantium corporis quisquam dicta nobis! Praesentium assumenda
+            </p>
+          </div>
+        </div>
+
+        <!-- WEB APPLICATION -->
+        <h3 id="project-title">WEB DEVELOPMENT</h3>
+        <div class="web-application">
+          <div class="application project-1">
+            <img
+              src="/assest/images/Stock management.png"
+              alt="stock-managemnet-system"
+            />
+            <h3>Stock Managemnet System</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+              vel laudantium numquam, explicabo, quas dolores commodi odit rerum
+              id unde soluta ducimus ab quod temporibus atque dicta facilis,
+              doloribus voluptates?Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Exercitationem sit doloremque quos in enim quas
+              accusantium corporis quisquam dicta nobis! Praesentium assumenda
+            </p>
+          </div>
+          <div class="application project-2">
+            <img src="/assest/images/Bubble game.png" alt="Bubble-game" />
+            <h3>Bubble Game</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+              vel laudantium numquam, explicabo, quas dolores commodi odit rerum
+              id unde soluta ducimus ab quod temporibus atque dicta facilis,
+              doloribus voluptates?Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Exercitationem sit doloremque quos in enim quas
+              accusantium corporis quisquam dicta nobis! Praesentium assumenda
+            </p>
+          </div>
+          <div class="application project-3">
+            <img
+              src="/assest/images/Project-marine-hub.png"
+              alt="project-marine-hub"
+            />
+            <h3>Project Marine Hub</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+              vel laudantium numquam, explicabo, quas dolores commodi odit rerum
+              id unde soluta ducimus ab quod temporibus atque dicta facilis,
+              doloribus voluptates?Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Exercitationem sit doloremque quos in enim quas
+              accusantium corporis quisquam dicta nobis! Praesentium assumenda
+            </p>
+          </div>
+          <div class="application project-4">
+            <img
+              src="/assest/images/Project-DMS-cool-tech.png"
+              alt="project-dms-cooltech"
+            />
+            <h3>Project DMS CoolTech</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+              vel laudantium numquam, explicabo, quas dolores commodi odit rerum
+              id unde soluta ducimus ab quod temporibus atque dicta facilis,
+              doloribus voluptates?Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Exercitationem sit doloremque quos in enim quas
+              accusantium corporis quisquam dicta nobis! Praesentium assumenda
+            </p>
+          </div>
+        </div>
+        <br /><br />
+        <hr />
+        <!-- GALLERY -->
+        <div id="gallery-section">
+          <h2 id="gallery-title">GALLERY</h2>
+          <p>
+            Explore a collection of my work in the gallery, where each project
+            reflects my dedication to quality and innovation. From web
+            applications to custom software solutions, each piece showcases my
+            skills in creating functional and visually appealing designs. Browse
+            through my projects and see how I bring ideas to life.
+          </p>
+          <div class="gallery-container">
+            <div class="gallery">
+              <div class="gallery-01">
+                <div id="main-image">
+                  <img
+                    src="/assests/image/gallery-01/Image-01.jpg"
+                    alt="Image-01"
+                  />
+                </div>
+                <div id="about-event">
+                  <h3>INNOVESTA '23</h3>
+                  <p>
+                    In the Innovesta Programme, our team collaborated to create
+                    Marine Hub, a comprehensive project designed to enhance the
+                    maritime industry. This innovative platform brings together
+                    key resources, streamlining information and services for
+                    better connectivity and efficiency. Through teamwork and
+                    creative problem-solving, we developed a user-friendly
+                    solution that addresses real-world challenges in the marine
+                    sector. Explore this project in the gallery to see how our
+                    combined efforts came together to create a meaningful
+                    impact.
+                  </p>
+                </div>
+              </div>
+              <div class="image-collection">
+                <div class="image">
+                  <img
+                    src="/assests/image/gallery-01/Image-02.jpg"
+                    alt="image-02"
+                  />
+                </div>
+                <div class="image">
+                  <img
+                    src="/assests/image/gallery-01/Image-03.jpg"
+                    alt="image-03"
+                  />
+                </div>
+                <div class="image">
+                  <img
+                    src="/assests/image/gallery-01/Image-04.jpg"
+                    alt="image-04"
+                  />
+                </div>
+                <div class="image">
+                  <img
+                    src="/assests/image/gallery-01/Image-05.jpg"
+                    alt="image-05"
+                  />
+                </div>
+                <div class="image">
+                  <img
+                    src="/assests/image/gallery-01/Image-06.jpg"
+                    alt="image-06"
+                  />
+                </div>
+              </div>
+
+              <div class="gallery-01">
+                <div id="main-image">
+                  <img
+                    src="/assests/image/gallery-02/pic 01.jpg"
+                    alt="Image-01"
+                  />
+                </div>
+                <div id="about-event">
+                  <h3>IJSE KOUL WASANATHAYA</h3>
+                  <p>
+                    The IJSE Koul Wasanthya captures the vibrant spirit of the
+                    traditional Awurudu Uthsawaya (New Year festival) celebrated
+                    at our institute. This joyful event brought students and
+                    faculty together in a celebration filled with cultural
+                    games, traditional attire, and time-honored customs. From
+                    the thrill of tug-of-war and sack races to the charm of
+                    crowning the Awurudu Kumara and Kumari, every moment was a
+                    beautiful blend of heritage and fun. Browse through the
+                    gallery to experience the color, energy, and joy that made
+                    Koul Wasanthya unforgettable.
+                  </p>
+                </div>
+              </div>
+              <div class="image-collection">
+                <div class="image">
+                  <img
+                    src="/assests/image/gallery-02/Pic-02.jpg"
+                    alt="image-02"
+                  />
+                </div>
+                <div class="image">
+                  <img
+                    src="/assests/image/gallery-02/Pic-03.jpg"
+                    alt="image-03"
+                  />
+                </div>
+                <div class="image">
+                  <img
+                    src="/assests/image/gallery-02/Pic-04.jpg"
+                    alt="image-04"
+                  />
+                </div>
+                <div class="image">
+                  <img
+                    src="/assests/image/gallery-02/Pic-05.jpg"
+                    alt="image-05"
+                  />
+                </div>
+                <div class="image">
+                  <img
+                    src="/assests/image/gallery-02/Pic-06.jpg"
+                    alt="image-06"
+                  />
+                </div>
+                <div class="image">
+                  <img
+                    src="/assests/image/gallery-02/Pic-07.jpg"
+                    alt="image-07"
+                  />
+                </div>
+                <div class="image">
+                  <img
+                    src="/assests/image/gallery-02/Pic-08.jpg"
+                    alt="image-08"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="gallery-container">
+            <div class="gallery">
+              <img
+                id="main-image"
+                src="/assests/image/gallery-01/Image-01.jpg"
+                alt="Gallery-01"
+              />
+              <div class="image-collection">
+                <img
+                  src="/assests/image/gallery-01/Image-02.jpg"
+                  alt="Picture-01"
+                />
+                <img
+                  src="/assests/image/gallery-01/Image-03.jpg"
+                  alt="Picture-02"
+                />
+                <img
+                  src="/assests/image/gallery-01/Image-04.jpg"
+                  alt="Picture-03"
+                />
+                <img
+                  src="/assests/image/gallery-01/Image-05.jpg"
+                  alt="Picture-05"
+                />
+                <img
+                  src="/assests/image/gallery-01/Image-06.jpg"
+                  alt="Picture-06"
+                />
+              </div>
+              <div id="gallery-text">
+                <h3>Gallery 01</h3>
+                <p>
+                  In the Innovesta Programme, our team collaborated to create
+                  Marine Hub, a comprehensive project designed to enhance the
+                  maritime industry. This innovative platform brings together
+                  key resources, streamlining information and services for
+                  better connectivity and efficiency. Through teamwork and
+                  creative problem-solving, we developed a user-friendly
+                  solution that addresses real-world challenges in the marine
+                  sector. Explore this project in the gallery to see how our
+                  combined efforts came together to create a meaningful impact.
+                </p>
+              </div>
+            </div>
+            <div class="gallery-02">
+                <img id="main-image" src="/assests/image/gallery-02/pic 01.jpg" alt="">
+              <p>
+                The IJSE Koul Wasanthya captures the vibrant spirit of the
+                traditional Awurudu Uthsawaya (New Year festival) celebrated at
+                our institute. This joyful event brought students and faculty
+                together in a celebration filled with cultural games,
+                traditional attire, and time-honored customs. From the thrill of
+                tug-of-war and sack races to the charm of crowning the Awurudu
+                Kumara and Kumari, every moment was a beautiful blend of
+                heritage and fun. Browse through the gallery to experience the
+                color, energy, and joy that made Koul Wasanthya unforgettable.
+              </p>
+              <div class="image">
+                <img src="/assests/image/" alt="">
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+        <hr />
+
+        <!-- GET IN TOUCH -->
+        <div id="contact-section">
+          <h2>GET IN TOUCH</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vero
+            nam, ratione impedit earum architecto cum minus ducimus.
+            Perspiciatis porro quibusdam corrupti unde eum qui in reiciendis,
+            dolore aliquam officiis!
+          </p>
+          <div class="contact-container">
+            <div class="contact">
+              <i class="fa-solid fa-envelope"></i>
+              <p>shaanz11.11@gmail.com</p>
+            </div>
+            <div class="contact">
+              <i class="fa-solid fa-phone"></i>
+              <p>+94 77 698 6455</p>
+            </div>
+            <div class="contact">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Bibile, Sri Lanka</p>
+            </div>
+          </div>
+          <form class="main-form">
+            <h2>Contact Me</h2>
+            <p>If you need any help, Please let me know...!!</p>
+
+            <div class="name-feild">
+              <label for="name"> Name:</label><br />
+              <input type="text" id="name" /><br /><br />
+            </div>
+
+            <div>
+              <label for="email"> Email:</label><br />
+              <input type="email" id="email" /><br /><br />
+            </div>
+
+            <label for="message"> Message:</label><br />
+            <textarea id="message" cols="30" rows="10"></textarea>
+            <br /><br />
+            <button id="submit-button" type="submit">Submit</button>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-nav">
+            <a href=""
+              ><i class="fa-brands fa-github" style="color: #ffffff"></i
+            ></a>
+            <a href=""
+              ><i class="fa-brands fa-linkedin" style="color: #ffffff"></i
+            ></a>
+            <a href=""
+              ><i class="fa-brands fa-twitter" style="color: #ffffff"></i>
+            </a>
+          </div>
+          <p>Copyright &copy; 2022. All Rights Reserved</p>
+        </div>
+      </footer>
+    </div>
+    <script src="/js/index.js"></script>
+    <script>
+      const burger = document.getElementById("burger");
+      const menuPanel = document.getElementById("menu-panel-id");
+      const closeBtn = document.getElementById("btn-close");
+
+      burger.addEventListener("click", () => {
+        menuPanel.classList.toggle("active");
+      });
+
+      closeBtn.addEventListener("click", () => {
+        menuPanel.classList.remove("active");
+      });
+    </script>
+  </body>
+</html>
